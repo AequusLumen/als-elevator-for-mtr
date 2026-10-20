@@ -1,0 +1,24 @@
+# ---- build outputs ----
+build/
+rebuild/classes/
+*.jar
+
+# ---- large inputs / downloaded dependencies (not for version control) ----
+downloads/
+tools/
+rebuild/source/
+
+# ---- IDE / OS ----
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+out/
+.DS_Store
+Thumbs.db
+
+# ---- misc ----
+*.log
+*.tmp
+__pycache__/
